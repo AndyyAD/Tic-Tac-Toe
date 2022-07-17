@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1.head{
+    font-size: 4rem;
+    margin: 5rem 2rem 0;
+}
+
+div.container{
+    text-align: center;
+    position: relative;
+}
+
+.game-container{
+    margin-top: 4.5rem;
+}
+
+.game-wrap{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(3, 7.5vw);
+    grid-template-columns: repeat(3, 7.5vw);
+    font-family: 'Varela Round', sans-serif;
+}
+
+.box{
+    border: 2px solid black;
+    font-size: 5.5vw;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box:hover {
+    background-color: rgb(243, 249, 255);
+    transition: all .2s ease-in;
+}
+
+.game-text {
+    font-size: 3rem;
+    margin-top: 6rem; 
+}
+
+span.info {
+    font-family: 'Varela Round', sans-serif;
+}
+
+button { 
+    margin-top: 2.5rem; 
+    font-size: 1.5rem; 
+    overflow: hidden;
+    padding: 1rem 2.8rem;
+}
+
+.pop-win-msg{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.95);
+    width: 40vw;
+    height: 55vh;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2rem;
+}
+
+.win-msg{
+    color: rgb(255, 255, 255);
+    font-size: 7rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.br-0{
+    border-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .game-wrap{
+        grid-template-rows: repeat(3, 22vw);
+        grid-template-columns: repeat(3, 22vw);
+    }
+
+    .box{
+        font-size: 15vw;
+    }
+
+    .pop-win-msg{
+        width: 100%;
+    }
+
+    .win-msg{
+        font-size: 4rem;
+    }
+}
