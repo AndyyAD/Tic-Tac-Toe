@@ -51,6 +51,7 @@ div.container{
 .game-text {
     font-size: 3rem;
     margin-top: 6rem; 
+    margin-bottom: 6rem;
 }
 
 span.info {
@@ -78,7 +79,7 @@ button {
 
 .win-msg{
     color: rgb(255, 255, 255);
-    font-size: 7rem;
+    font-size: 5rem;
     position: absolute;
     top: 50%;
     left: 50%;
