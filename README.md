@@ -1,4 +1,4 @@
 # Tic-Tac-Toe
-This is a Tic-Tac-Toe. A Xs and Os game made by me in HTML, CSS and JS. This is made using minimax algorithm which make this game impossible to win. You will either lose or this game will end in a draw.
+This is a Tic-Tac-Toe. A Xs and Os game made by me in HTML, CSS and JS. You can easily play this with your friend and enjoy your friend
 
-Try to defeat this game: 
+Click to try the game
